@@ -1,0 +1,22 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "Practicas NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./express.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "Javascript"
+  ],
+  "author": "JCCG",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "16.0.1",
+    "express": "^4.18.1",
+    "nanoid": "^4.0.0"
+  }
+}
